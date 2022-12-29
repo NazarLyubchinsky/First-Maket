@@ -1,0 +1,146 @@
+@media only screen and (max-width: 1200px) {
+	body {
+		max-width: 970px;
+	}
+}
+@media only screen and (max-width: 992px) {
+	body {
+		max-width: 750px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	body {
+		max-width: none;
+	}
+}
+
+body {
+	max-width: 1200px;
+	margin: 0;
+}
+header {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+.container {
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.site-name {
+	font-weight: 700;
+	font-size: 4.43561px;
+	text-align: center;
+	color: #545be8;
+}
+header .container .logo {
+	margin-right: 4px;
+}
+.nav {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.nav li {
+	display: inline-block;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 5.06927px;
+	line-height: 25px;
+	padding-right: 12.67px;
+}
+.nav li a {
+	text-decoration: none;
+	color: #101928;
+}
+.font-home {
+	font-weight: 700;
+}
+.actions {
+	display: flex;
+	gap: 7px;
+}
+.actions button {
+	height: 13px;
+	width: 53px;
+}
+#log-in-btn {
+	background: #545be8;
+	border: solid #545be8;
+	border-radius: 3.16829px;
+	color: #fff;
+	line-height: 7px;
+	font-size: 5.70293px;
+}
+#sign-up-btn {
+	background-color: #fff;
+	border: 0.5px solid #545be8;
+	border-radius: 3.16829px;
+	color: #545be8;
+	line-height: 7px;
+	font-size: 5.70293px;
+}
+
+section {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	padding-top: 20px;
+}
+
+.section-info {
+	display: flex;
+	flex-direction: column;
+}
+p {
+	font-weight: 400;
+	font-size: 5.70293px;
+	line-height: 7px;
+	color: #545be8;
+}
+.section-info h1 {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 30px;
+}
+.section-info h4 {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 5.7px;
+	line-height: 9px;
+	color: #969696;
+}
+.selected-color {
+	color: #545be8;
+}
+.img-fon {
+	width: 200px;
+}
+section .btn-info {
+	display: flex;
+	flex-direction: row;
+	padding-top: 7px;
+}
+.reg-btn-info {
+	background: #545be8;
+	color: white;
+	border: 1px solid #545be8;
+	border-radius: 3px;
+	font-weight: 700;
+	font-size: 7px;
+	min-width: 90px;
+	height: 20px;
+}
+.play-btn {
+	padding-left: 15px;
+	height: 20px;
+	border: 1px solid #f5f5f5;
+}
+.play-btn-width {
+	width: 60px;
+}
