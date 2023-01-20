@@ -19,7 +19,7 @@ body {
 	display: block;
 	width: 30px;
 	height: 30px;
-	background-image: url("/img/Vector-removebg-preview.png");
+	background-image: url("img/Vector-removebg-preview.png");
 	margin-right: 12px;
 }
 .row {
@@ -46,7 +46,6 @@ a:hover {
 }
 
 .contact-btn {
-	/* align-items: center; */
 	padding: 13px 14px;
 	background: #111111;
 	color: #fff;
@@ -66,7 +65,7 @@ a:hover {
 	align-items: center;
 	height: calc(90vh - 126px);
 	max-height: calc(100vh - 126px);
-	background-image: url("/img/Group\ 10591.png");
+	background-image: url("img/Group\ 10591.png");
 	background-repeat: no-repeat;
 	background-position: right;
 	background-size: 350px;
@@ -306,32 +305,32 @@ a:hover {
 }
 
 #business-law {
-	background: no-repeat url("/img/busines.png");
+	background: no-repeat url("img/busines.png");
 	background-size: cover;
 }
 
 #partnership-law {
-	background: no-repeat url("/img/Partnership\ LAW.png");
+	background: no-repeat url("img/Partnership\ LAW.png");
 	background-size: cover;
 }
 
 #real {
-	background: no-repeat url("/img/REAL\ ESTATE\ LAW.png");
+	background: no-repeat url("img/REAL\ ESTATE\ LAW.png");
 	background-size: cover;
 }
 
 #business-2 {
-	background: no-repeat url("/img/BUSINESS\ LAW-2.png");
+	background: no-repeat url("img/BUSINESS\ LAW-2.png");
 	background-size: cover;
 }
 
 #landlord {
-	background: no-repeat url("/img/landlord.png");
+	background: no-repeat url("img/landlord.png");
 	background-size: cover;
 }
 
 #elder {
-	background: no-repeat url("/img/elder.png");
+	background: no-repeat url("img/elder.png");
 	background-size: cover;
 }
 .area-of-practices {
@@ -429,7 +428,7 @@ a:hover {
 	padding-top: 50px;
 }
 .clients-content-btn-left {
-	background-image: url("/img/Group_40-removebg-preview\ \(1\).png");
+	background-image: url("img/Group_40-removebg-preview\ \(1\).png");
 	background-repeat: no-repeat;
 	background-color: #1e1e1e;
 	background-size: 50px;
@@ -440,7 +439,7 @@ a:hover {
 	cursor: pointer;
 }
 .clients-content-btn-right {
-	background-image: url("/img/Group_41-removebg-preview.png");
+	background-image: url("img/Group_41-removebg-preview.png");
 	background-repeat: no-repeat;
 	background-size: 50px;
 	background-color: #1e1e1e;
@@ -522,7 +521,6 @@ a:hover {
 		flex-wrap: wrap;
 		margin-left: 20px;
 		width: 95%;
-		/* height: 100%; */
 	}
 	#content-sanfole,
 	#Haldone {
@@ -536,7 +534,6 @@ a:hover {
 	display: flex;
 	width: 100%;
 	justify-content: center;
-	/* margin: 0 200px; */
 }
 .content-left-top {
 	font-weight: 600;
@@ -584,9 +581,6 @@ a:hover {
 	border-radius: 50%;
 }
 @media only screen and (max-width: 992px) {
-	.faq-block-content {
-		/* margin: 0 20%; */
-	}
 	.content-left-top,
 	.report-title {
 		font-size: 24px;
@@ -662,7 +656,7 @@ a:hover {
 	height: 45px;
 	border-radius: 0px 8px 8px 0px;
 }
-@media only screen and (max-width: 992px){
+@media only screen and (max-width: 992px) {
 	.newsletter-form {
 		display: flex;
 		flex-wrap: wrap;
@@ -685,28 +679,6 @@ a:hover {
 		height: 45px;
 		border-radius: 10px;
 	}
-}
-@media only screen and (max-width: 767px) {
-	/* .newsletter-form {
-		display: flex;
-		flex-wrap: wrap;
-		flex-direction: column;
-		align-items: center;
-	}
-	#youemail-left {
-		border-radius: 10px;
-	}
-	#youemail-right {
-		margin: 15px 0;
-		border-radius: 10px;
-	}
-	.btn-send {
-		cursor: pointer;
-		background-color: #e3b748;
-		width: 205px;
-		height: 45px;
-		border-radius: 10px;
-	} */
 }
 
 footer {
